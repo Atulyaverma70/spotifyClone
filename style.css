@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+navbar{
+    font-family: "Playfair Display", serif;
+}
+
+navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+navbar ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 54px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+
+    
+}
+/* container */
+.container{
+    min-height: 73vh;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+} 
+
+/* bottom */
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 13px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 100vh;
+}
+
+.songItemsContainer{
+    margin-top: 50px;
+}
+.songItems{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 120%;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px ;
+
+}
+
+.songItems img{
+    width: 30px;
+    margin: 0px 10px;
+    border-radius: 34px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 25vw;
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
